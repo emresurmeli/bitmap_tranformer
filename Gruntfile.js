@@ -12,7 +12,7 @@ module.exports = function(grunt) {
     
     jshint: {
       dev: {
-        src: ['Gruntfile.js', 'greet*.js', 'test/*.js']
+        src: ['Gruntfile.js', 'lib/*.js', 'test/*.js']
       },
       options: {
         jshintrc: true 
